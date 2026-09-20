@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cardiovision-ai-backend
+    runtime: docker
+    rootDir: backend
+    plan: free
