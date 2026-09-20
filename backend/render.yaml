@@ -4,3 +4,5 @@ services:
     runtime: docker
     rootDir: backend
     plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /docs
